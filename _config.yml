@@ -1,6 +1,5 @@
 # Site settings
 title: Kris Hatcher
-twitter_username: hatcherk
 name: Kris Hatcher
 
 # Build settings
@@ -9,8 +8,6 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: Blog
-   url: http://automateddeveloper.blogspot.com/
  - title: GitHub
    url: https://github.com/krishatcher
  - title: StackOverflow
@@ -20,52 +17,68 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
- - Java
- - JPA
- - SQL
+ - Angular
+ - React
+ - Golang
+ - C# .NET
+ - PHP
  - REST
+ - GraphQL
+ - PostgreSQL
+ - SQL
+ - Terraform
+ - Docker
+ - Kubernetes
+ - AWS
  - Tech Architecture
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Technical Team Lead & Senior Engineer
+   start: Aug 2021
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   employer: 2U, LLC
+   description: As a technical lead, I provided architectural and technical guidance to a team of nine, fostering collaboration and ensuring project alignment with organizational goals. I facilitated Scrum ceremonies using Atlassian tools like Jira and Confluence to enhance team efficiency and project transparency. Monitoring deployed applications and coordinating after-hours support when necessary were integral aspects of my role. Notably, I implemented a ChatGPT-based AI chatbot with a custom knowledge base to address student inquiries in an online learning environment. Additionally, I spearheaded the integration of a third-party toolset through a GraphQL-based process. My work encompassed the development and maintenance of five distinct applications using Golang and React, hosted on AWS, managed via Terraform, and deployed through Buildkite. My technical expertise spans AWS, Terraform, PostgreSQL, Golang, React, Docker, and Kubernetes, allowing me to deliver scalable, reliable, and innovative solutions.
+ - title: Team Lead & ScrumMaster
+   start: May 2015
+   end: Aug 2021
+   employer: Smart Data Systems, LLC
+   description: Worked with client companies to supplement existing development workforces and deliver net-new or major change functionality in a way which was indistinguishable from software developed by existing workforce. Assisted both with software development and implementation of agile methodologies in client environments. Clients existed across a variety of verticals such as Healthcare, Health Insurance, Construction Management, and Healthcare Management. Led teams from 3 to 25 people. Managed AWS infrasturcture, including budgeting for some clients. My technical skill set encompasses AWS, MS SQL, C# .NET, React, Angular, PHP, and TeamCity, enabling me to deliver scalable and client-focused solutions.
+ - title: Web Development Supervisor
+   start: Jan 2011
+   end: Apr 2015
+   employer: The Reynolds and Reynolds Company
+   description: I provided guidance and leadership to a team of five developers, supporting their growth while maintaining focus on my own assigned tasks. I collaborated with associates to ensure their responsibilities were effectively managed and worked closely with other developers and teams to create web-based products that enhanced client productivity. My work involved leveraging tools and technologies such as MS SQL, C# .NET, jQuery, JavaScript, and TeamCity to deliver efficient and impactful solutions.
 
 #Education is required
 education:
  - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+   date: Currently In Progress
+   subject: Software Engineering
+   school: Allegheny College
+ - level: Certified ScrumMaster (CSM)
+   date: 2016
+   subject: Team Operations
+   school: ScrumAlliance
+ - level: Certified LeSS Practitioner
+   date: 2019
+   subject: Large Scale Scrum
+   school: The LeSS Company B.V.
+ - level: AWS Certified Solution Architect - Associate
+   date: 2017
+   subject: Cloud Utilization & Management
+   school: Amazon Web Services
 
 #List of interesting Github repo/projects to include - optional
 github:
  - krishatcher/SendContacts
- - krishatcher/shameless
  - krishatcher/wpCertifications
  - krishatcher/arduino-ColorOrgan
 
 #Stackoverflow flair is optional
 stackoverflow:
    profileurl: https://stackoverflow.com/users/4603690/kris-hatcher
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+   flairimageurl: https://stackoverflow.com/users/flair/4603690.png
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
