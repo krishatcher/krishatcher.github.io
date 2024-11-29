@@ -70,10 +70,10 @@ education:
    school: Amazon Web Services
 
 #List of interesting Github repo/projects to include - optional
-github:
- - krishatcher/SendContacts
- - krishatcher/wpCertifications
- - krishatcher/arduino-ColorOrgan
+#github:
+# - krishatcher/SendContacts
+# - krishatcher/wpCertifications
+# - krishatcher/arduino-ColorOrgan
 
 #Stackoverflow flair is optional
 stackoverflow:
